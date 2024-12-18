@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+    <link rel = "icon" href="./cdf.jpeg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body bgcolor="pink" style="color: rgba(216, 13, 13, 0.411) ">
+    <form>
+        <center>
+        <h1> Registration</h1>
+        <div>
+            <label for="name">First Name</label> 
+            <input type="text" id="name" name="name" placeholder="ENTER YOUR Name"  required>
+        </div>
+        <br>
+        <div>
+            <label for="Surname">Last name</label>
+            <input type="text" id="Surname" name="Surname" placeholder="Enter the Last Name" >
+        </div>
+        <br>
+        <div>
+            <label for="year">Year of Birth</label>
+            <input type="date" id="year" name="year" placeholder="Enter the date of birth">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email ID">
+        </div>
+         <br>
+         <div>
+            <label for="password">Create a Password</label>
+            <input type="password" id="password" name="password" >
+         </div>
+         <br>
+         
+            <label>Alart</label>
+         <div>
+            <label for="smsalart"> Message Alart</label>
+           <input type="checkbox" id="smsalart" name="smsalert">
+         </div>
+         <div>
+          <label for="mailalart"> Email Alart</label>
+          <input type="checkbox" id="mailalart" name="mailalart">
+          </div>
+          <br>
+          <div>
+            <label for="gender">GENDER</label>
+          </div>
+
+            <label for="Male">Male</label>
+             <input type="radio" id="Male" name="gender" value="Male">
+            </div>
+            <div>
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="gender" value="Female">
+            </div>
+            <div>
+                <label for="file">Passport photo</label>
+                <input type="file" id="file" name="file" >
+            </div>
+            <br>
+            <div>
+                <label>Select the branch</label>
+                <select name="branch">
+                    <p ><option value="" >..select your branch..</option></p>
+                    <option value="CSE">CSE</option>
+                    <option value="CAI">CAI</option>
+                    <option value="CSO">CSO</option>
+                    <option value="ECE">ECE</option>
+                    <OPTION value="EEE">EEE</OPTION>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="MECH">MECH</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label name="about">descripition of the achivements</label>
+                <textarea id="about" cols="10" rows="10" placeholder="Enter your achivements"></textarea>
+            </div>
+        </center>
+        <center>
+            <button class="btn btn-link" aria-expanded="false" aria-controls="submit" data-target="#submit"
+            data-toggle="collapse"> Submit</button>
+            <p class="collapse" id="submit">
+                Use promo code "GGarden" for additional 15% off your entire purchase!
+              </p>
+
+            <input type="image" src="./submit image.png"  width="100" height="100">
+            <button type="reset">Reset</button>
+
+        </center>
+    </form>
+    
+</body>
+</html>
